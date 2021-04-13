@@ -53,3 +53,46 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 36rem) {
+  .container {
+    width: auto;
+    margin: auto 1rem;
+    padding: 1rem 0;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header .description {
+    padding: 1.5rem 3rem;
+  }
+
+  .header .login {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .post {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+
+  .footer .link {
+    text-decoration: none;
+    padding: .4rem;
+    margin-left: -1px;
+    margin-bottom: 1rem;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+  }
+}
